@@ -1,0 +1,78 @@
+body,h1,h2,h3,h4,h5,br,h6,p,input,li,ol,ul,select,pre,textarea,dt,dd,form{
+   padding:0;
+   margin:0;
+   font-family: "微软雅黑";
+   list-style: none;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+}
+body,html{
+	height:100%;
+}
+.box{
+	height:100%;
+	margin-left:140px;
+	background:red;
+}
+.box .left{
+	width:140px;
+	margin-left:-140px;
+	height:100%;
+	background:red;
+	float: left;
+}
+.box .left h3{
+	height:26px;
+	color:#000;
+	line-height:26px;
+	text-align:center;
+	font-size:18px;
+	padding-top: 8px;
+}
+.box .right{
+	width:100%;
+	height:100%;
+	background:orange;
+	float: left;
+}
+.box .left .operate{
+	width:100%;
+	height:20%;
+	background:#00D1DA;
+}
+.box .left div{
+	width:50%;
+	height:40px;
+	line-height:30px;
+	text-align: center;
+	font-size:26px;
+	cursor:pointer;
+	float: left;
+}
+.box .left .draw{
+	width:100%;
+	height:50%;
+	background:#36DF83;
+}
+.box .left .draw div{
+	width:100%;
+	height:42px;
+}
+.box .left .style{
+	width:100%;
+	height:30%;
+	background:#FAEA0B;
+}
+.box .right .palette-box{
+	position:absolute;
+	top:0;
+	left:140px;
+	border:1px solid red;
+}
+.box .left .style .blod{
+	width:100%;
+	height:40px;
+	margin-top:30px;
+}
